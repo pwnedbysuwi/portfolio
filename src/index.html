@@ -62,7 +62,76 @@
     />
 
     <link rel="stylesheet" href="scss/index.scss" />
+
+    <style type="text/css">
+      .snow-wrapper{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        pointer-events: none;
+        z-index: 9999;
+      }
+      .snow{
+        width: 10px;
+        height: 10px;
+   
+        border-radius: 50%;
+        animation: fallingSnow 3s linear infinite;
+        position: absolute;
+        left: 0;
+        top: -40px;
+      }
+      
+      .snow::before{
+        content: "❄";
+        color: rgb(0, 174, 255);
+      }
+
+      @keyframes fallingSnow{
+        0%{
+          transform: translateY(0);
+        }
+        100%{
+          transform: translateY(100vh);
+        }
+      }
+
+      .snow:nth-child(1){
+        left: 80%;
+        width: 20px;
+        height: 20px;
+        animation-delay: 0s;
+        animation-duration: 6s;
+      }
+      .snow:nth-child(2){
+        left: 50%;
+        width: 30px;
+        height: 30px;
+        animation-delay: 2s;
+      }
+      .snow:nth-child(3){
+        left: 25%;
+        width: 40px;
+        height: 40px;
+        animation-delay: 4s;
+      }
+      .snow:nth-child(4){
+        left: 15%;
+        width: 50px;
+        height: 50px;
+        animation-delay: 5s;
+      }
+    </style>
   </head>
+
+  <div class="snow-wrapper">
+    <div class="snow"></div>
+    <div class="snow"></div>
+    <div class="snow"></div>
+    <div class="snow"></div>
+  </div>
 
   <body>
     <main class="home" data-scroll-container>
