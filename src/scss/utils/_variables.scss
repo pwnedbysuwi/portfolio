@@ -4,13 +4,14 @@ $col-orange: #cb450c;
 $col-boulder: #777777;
 $col-gray: #aaaaaa;
 $col-green: #00c40d;
-$col-yellow:#fffb00;
-$col-purp:#47017d;
-$col-mink:#f52af1;
+$col-yellow: #fffb00;
+$col-purp: #47017d;
+$col-mink: #f52af1;
 $font-bebas: "Bebas Neue", sans-serif;
-$font-sauce: "Open Sauce", arial;
+$font-sauce: "Open Sauce", serif;
+$font-sauceone: "Sauce One", sans;
 $gradient: linear-gradient(
-  90deg,
-  rgba(233, 227, 198, 0.5) 0%,
-  rgba(233, 198, 217, 0.5) 100%
+    90deg,
+    rgba(233, 227, 198, 0.5) 0%,
+    rgba(233, 198, 217, 0.5) 100%
 );
