@@ -2,7 +2,7 @@
     display: inline-block;
     background: transparent;
     color: $col-black;
-    font-size: 16px;
+    font-size: 25px;
     text-transform: uppercase;
     padding: 5px 8px;
     border: 2px solid $col-black;
@@ -12,9 +12,9 @@
 
     &:hover {
         @media (any-pointer: fine) {
-            border-color: $col-purp;
-            color: $col-white;
-            background: $col-purp;
+            border-color: $col-boulder;
+            color: $col-black;
+            background: $col-boulder;
             font-weight: 500;
         }
     }
@@ -43,7 +43,7 @@
             position: absolute;
             top: 100%;
             display: none;
-            font-family: $font-sauceone;
+            font-family: $font-sauce;
 
             @media (any-pointer: fine) {
                 display: inline-block;
