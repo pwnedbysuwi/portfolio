@@ -210,7 +210,7 @@
 
                 .first-word {
                     @extend %description-12;
-                    color: $col-black;
+                    color: $col-purp;
                 }
             }
 
@@ -272,7 +272,7 @@
         &__title {
             @extend %description-12;
             text-transform: uppercase;
-            color: $col-black;
+            color: $col-purp;
             margin-bottom: 2.4rem;
         }
 
@@ -375,7 +375,7 @@
         .awards {
             &__title {
                 @extend %description-12;
-                color: $col-black;
+                color: $col-purp;
                 margin-bottom: 24px;
             }
 
@@ -437,11 +437,12 @@
             &__title {
                 @extend %description-12;
                 text-transform: uppercase;
-                color: $col-black;
+                color: $col-purp;
             }
 
             &__desc {
                 @extend %description-16;
+                color: $col-black;
                 max-width: 95rem;
                 width: 100%;
                 @extend %links;
@@ -450,22 +451,40 @@
                     text-transform: uppercase;
                 }
 
-                .contact-scroll {
+             .contact-scroll {
                     color: $col-black;
                     transition: color 0.3s;
                     background: transparent;
                     border: 0;
                     padding: 0;
                     @extend %description-16;
-                    font-weight: 500;
+                    font-weight: 1500;
                     cursor: pointer;
 
                     @media (any-pointer: fine) {
                         &:hover {
-                            color: $col-purp;
+                            color: $col-green;
                         }
                     }
                 }
+
+                .contact-scroll2 {
+                    color: $col-black;
+                    transition: color 0.3s;
+                    background: transparent;
+                    border: 0;
+                    padding: 0;
+                    @extend %description-16;
+                    font-weight: 1500;
+                    cursor: pointer;
+
+                    @media (any-pointer: fine) {
+                        &:hover {
+                            color: $col-blue;
+
+                        }
+                    }
+                 }
             }
         }
     }
@@ -617,7 +636,7 @@
                 border: 0;
                 font-weight: 500;
                 cursor: pointer;
-                color: $col-black;
+                color: $col-boulder;
                 padding: 0;
                 margin-bottom: 1.6rem;
 
@@ -627,7 +646,7 @@
 
                 @media (any-pointer: fine) {
                     &:hover {
-                        color: $col-purp;
+                        color: $col-black;
                     }
                 }
 
@@ -646,7 +665,7 @@
         position: relative;
         padding-bottom: 4rem;
         font-weight: 400;
-        font-size: 16px;
+        font-size: 27px;
 
         @include media(">tablet") {
             display: flex;
@@ -665,7 +684,7 @@
 
         &__left {
             display: flex;
-            font-family: $font-sauceone;
+            font-family: $font-sauce;
             @include media(">tablet") {
                 left: 2.4rem;
                 position: absolute;
@@ -781,36 +800,11 @@
         }
     }
     .intro-scroll {
-        color: $col-black;
-        transition: color 0.3s;
-        background: transparent;
-        position: center;
-        border: 0;
-        padding: 0;
-        font-weight: 0;
-        cursor: pointer;
-
-        @media (any-pointer: fine) {
-            &:hover {
-                color: $col-purp;
-            }
-        }
-
-        .intro-scroll1 {
-            color: $col-black;
-            transition: color 0.3s;
-            background: transparent;
-            position: center;
-            border: 0;
-            padding: 0;
-            font-weight: 0;
-            cursor: pointer;
-
-            @media (any-pointer: fine) {
-                &:hover {
-                    color: $col-purp;
-                }
-            }
-        }
+        justify-content: center;
+        position: relative;
+        padding-bottom: 4rem;
+        font-weight: 400;
+        font-size: 50px;
+        
     }
 }
