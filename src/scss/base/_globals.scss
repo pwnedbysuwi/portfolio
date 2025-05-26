@@ -19,8 +19,8 @@ body {
     font-weight: 500;
     min-height: 100vh;
     font-size: 1.6rem;
-    background: $col-white;
-    color: $col-black;
+    background: $col-black;
+    color: $col-white;
 }
 
 // Locomotive
@@ -69,7 +69,7 @@ html.has-scroll-dragging {
     position: absolute;
     top: 0;
     right: 0;
-    background-color: black;
+    background-color: white;
     opacity: 0.5;
     width: 7px;
     border-radius: 10px;

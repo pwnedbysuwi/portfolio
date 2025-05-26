@@ -1,20 +1,20 @@
 .c-button {
     display: inline-block;
     background: transparent;
-    color: $col-black;
-    font-size: 25px;
+    color: $col-white;
+    font-size: 30px;
     text-transform: uppercase;
     padding: 5px 8px;
     border: 2px solid $col-black;
     border-radius: 45px;
     cursor: pointer;
-    transition: all 0.3s;
+    transition: all ease 0.3s;
 
     &:hover {
         @media (any-pointer: fine) {
-            border-color: $col-boulder;
-            color: $col-black;
-            background: $col-boulder;
+            border-color: $col-black;
+            color: $col-gray;
+            background: $col-black;
             font-weight: 500;
         }
     }
