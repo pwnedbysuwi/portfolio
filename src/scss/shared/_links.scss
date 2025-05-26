@@ -1,11 +1,11 @@
 %links {
     a {
-        color: $col-black;
+        color: $col-boulder;
         transition: color 0.3s;
 
         @media (any-pointer: fine) {
             &:hover {
-                color: $col-purp;
+                color: $col-white;
             }
         }
     }
