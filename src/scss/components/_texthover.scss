@@ -6,7 +6,7 @@
       .label__inner {
         p {
           &:last-of-type {
-            color: $col-black;
+            color: $col-white;
           }
         }
       }
@@ -126,7 +126,7 @@
         &::before {
           display: inline-block;
           content: attr(data-content);
-          color: $col-black;
+          color: $col-white;
           transform: translateY(-100%);
           transition: transform 275ms ease;
 
