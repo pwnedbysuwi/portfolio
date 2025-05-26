@@ -9,12 +9,6 @@
 }
 
 .home {
-    .back__video {
-        position: absolute;
-        right: 0;
-        bottom: 0;
-        z-index: -1;
-    }
     padding: 2.4rem 0;
     visibility: hidden;
     &__nav {
