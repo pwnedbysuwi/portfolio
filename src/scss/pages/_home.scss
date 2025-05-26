@@ -9,8 +9,10 @@
 }
 
 .home {
+    
     padding: 2.4rem 0;
     visibility: hidden;
+
     &__nav {
         
         @extend %padding-home;
